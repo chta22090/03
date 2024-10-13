@@ -1,13 +1,11 @@
-import Gallery from "./Gallery";
+import Welcome from "./Welcome";
+import Image from "./Image";
 
 export default function Main() {
   return (
     <main>
-      <section className="section">
-        <div className="container">
-          <Gallery />
-        </div>
-      </section>
+      <Welcome />
+      <Image />
     </main>
   );
 }

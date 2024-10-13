@@ -1,11 +1,8 @@
 export default function Header() {
     return (
-      <header className="hero is-dark is-bold">
-        <div className="hero-body">
-          <div className="container">
-            <h1 className="title">Cute Dog Images</h1>
-          </div>
-        </div>
+      <header>
+        <h1>Birdwatching</h1>
+        <img src="/src/images/dove.png" alt="a simple dove logo" />
       </header>
     );
   }
